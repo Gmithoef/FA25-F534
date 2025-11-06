@@ -18,8 +18,8 @@ os.chdir("Lecture 3 - Regression")
 print(f"CWD after entering 'data': {os.getcwd()}")
 
 # Reading from a CSV File 
+# Reading from a CSV File #loading pandas into memory
 import pandas as pd
-
 train = pd.read_csv('train.csv')
 validate = pd.read_csv('validate.csv')
 test = pd.read_csv('test.csv')
